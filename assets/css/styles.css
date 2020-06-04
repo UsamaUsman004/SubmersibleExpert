@@ -1,0 +1,396 @@
+
+.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
+  color: #316DC3;
+}
+
+.about {
+  color: #313437;
+  background-color: #fff;
+  padding: 50px 0;
+}
+
+.aboutText {
+  font-size: 16px;
+  max-width: 500px;
+  margin: 0 auto 25px;
+}
+
+.social .icon{
+	color: grey
+}
+
+.ImageText {
+  /*padding-top: 10;
+  padding-top: 15%;
+  padding-left: 5%;*/
+  position: absolute;
+  top: 50%;
+  left: 53%;
+  transform: translate(-50%, -50%);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+
+
+
+
+/*about Section starts*/
+
+.aboutSection {
+  color: #313437;
+  background-color: #fff;
+  padding: 50px 0;
+}
+
+.aboutSection p {
+  color: #7d8285;
+}
+
+.aboutSection h2 {
+  font-weight: bold;
+  margin-bottom: 25px;
+  line-height: 1.5;
+  padding-top: 0;
+  margin-top: 0;
+  color: inherit;
+}
+
+.aboutSection .intro {
+  font-size: 16px;
+  max-width: 1080px;
+  margin: 0 auto 25px;
+}
+
+.aboutSection .buttons {
+  text-align: center;
+}
+
+.aboutSection .buttons .btn {
+  padding: 16px 32px;
+  margin: 6px;
+  border: none;
+  background: none;
+  box-shadow: none;
+  text-shadow: none;
+  opacity: 0.9;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 13px;
+  letter-spacing: 0.4px;
+  line-height: 1;
+  outline: none;
+  background-color: #ddd;
+}
+
+.aboutSection .buttons .btn:hover {
+  opacity: 1;
+}
+
+.aboutSection .buttons .btn:active {
+  transform: translateY(1px);
+}
+
+.highlight-clean .buttons .btn-primary {
+  background-color: #055ada;
+  color: #fff;
+}
+
+/*about ends*/
+
+
+/*Services Starts*/
+
+
+.features-boxed {
+  color: #313437;
+  background-color: #eef4f7;
+}
+
+.features-boxed p {
+  color: #7d8285;
+}
+
+.features-boxed h2 {
+  font-weight: bold;
+  margin-bottom: 40px;
+  padding-top: 40px;
+  color: inherit;
+}
+
+@media (max-width:767px) {
+  .features-boxed h2 {
+    margin-bottom: 25px;
+    padding-top: 25px;
+    font-size: 24px;
+  }
+}
+
+.features-boxed .intro {
+  font-size: 16px;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.features-boxed .intro p {
+  margin-bottom: 0;
+}
+
+.features-boxed .features {
+  padding: 50px 0;
+}
+
+.features-boxed .item {
+  text-align: center;
+}
+
+.features-boxed .item .box {
+  text-align: center;
+  padding: 30px;
+  background-color: #fff;
+  margin-bottom: 30px;
+}
+
+.features-boxed .item .icon {
+  font-size: 60px;
+  color: #1485ee;
+  margin-top: 20px;
+  margin-bottom: 35px;
+}
+
+.features-boxed .item .name {
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 8px;
+  margin-top: 0;
+  color: inherit;
+}
+
+.features-boxed .item .description {
+  font-size: 15px;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+
+.navbar.navbar-light.navbar-expand-md.sticky-top {
+  background-color: white;
+  border-bottom: 2px solid #316DC3;
+}
+
+
+
+
+
+/*Services Ends*/
+
+
+/*subscribe form*/
+
+.subscribe {
+  color: #313437;
+  background-color: #fff;
+  padding: 50px 0;
+}
+
+.subscribe p {
+  color: #7d8285;
+  line-height: 1.5;
+}
+
+.subscribe h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 25px;
+  line-height: 1.5;
+  padding-top: 0;
+  margin-top: 0;
+  color: inherit;
+}
+
+.subscribe .intro {
+  font-size: 16px;
+  max-width: 500px;
+  margin: 0 auto 25px;
+}
+
+.subscribe .intro p {
+  margin-bottom: 35px;
+}
+
+.subscribe form {
+  justify-content: center;
+}
+
+.subscribe form .form-control {
+  background: #eff1f4;
+  border: none;
+  border-radius: 3px;
+  box-shadow: none;
+  outline: none;
+  color: inherit;
+  text-indent: 9px;
+  height: 45px;
+  margin-right: 10px;
+  min-width: 250px;
+}
+
+.subscribe form .btn {
+  padding: 16px 32px;
+  border: none;
+  background: none;
+  box-shadow: none;
+  text-shadow: none;
+  opacity: 0.9;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 13px;
+  letter-spacing: 0.4px;
+  line-height: 1;
+}
+
+.subscribe form .btn:hover {
+  opacity: 1;
+}
+
+.subscribe form .btn:active {
+  transform: translateY(1px);
+}
+
+.subscribe form .btn-primary {
+  background-color: #055ada !important;
+  color: #fff;
+  outline: none !important;
+}
+/*subscribe Ends*/
+
+
+/*Footer Starts*/
+
+.footerWhite{
+  padding: 50px 0;
+  color: black;
+  background-color: white;
+}
+
+.footerWhite h3 {
+  margin-top: 0;
+  margin-bottom: 12px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.footerWhite ul {
+  padding: 0;
+  list-style: none;
+  line-height: 1.6;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+.footerWhite ul a {
+  color: inherit;
+  text-decoration: none;
+  opacity: 0.6;
+}
+
+.footerWhite ul a:hover {
+  opacity: 0.8;
+}
+
+@media (max-width:767px) {
+  .footerWhite .item:not(.social) {
+    text-align: center;
+    padding-bottom: 20px;
+  }
+}
+
+.footerWhite .item.text {
+  margin-bottom: 36px;
+}
+
+@media (max-width:767px) {
+  .footerWhite .item.text {
+    margin-bottom: 0;
+  }
+}
+
+.footerWhite .item.text p {
+  opacity: 0.6;
+  margin-bottom: 0;
+}
+
+.footerWhite .item.social {
+  text-align: center;
+}
+
+@media (max-width:991px) {
+  .footerWhite .item.social {
+    text-align: center;
+    margin-top: 20px;
+  }
+}
+
+.footerWhite .item.social > a {
+  font-size: 20px;
+  width: 36px;
+  height: 36px;
+  line-height: 36px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  box-shadow: 0 0 0 1px rgba(255,255,255,0.4);
+  margin: 0 8px;
+  color: #fff;
+  opacity: 0.75;
+}
+
+.footerWhite .item.social > a:hover {
+  opacity: 0.9;
+}
+
+.footerWhite .copyright {
+  text-align: center;
+  padding-top: 24px;
+  opacity: 0.3;
+  font-size: 13px;
+  margin-bottom: 0;
+}
+
+
+
+
+/*Footer Ends*/
+
+/*Contact starts*/
+
+#contact .icon {
+  font-size: 40px;
+  color: #1485ee;
+  margin-top: 20px;
+  margin-bottom: 35px;
+
+
+}
+
+.contact p{
+    color: #000000;
+    opacity: 0.6
+}
+
+
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:75%;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+/*Contact Ends*/
